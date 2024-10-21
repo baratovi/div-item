@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(to left,#58f4e4,#fff);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    width: 280px;
+    height: 400px;
+    padding: 50px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: hsl(31, 77%, 52%);
+
+}
+.div2{
+    width: 280px;
+    height: 400px;
+    padding: 50px;
+    color: white;
+    background-color:hsl(184, 100%, 22%);
+}
+.div3{
+    width: 280px;
+    height: 400px;
+    padding: 50px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:hsl(179, 100%, 13%) ;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color:hsl(31, 77%, 52%) ;
+    margin-top: 140px;
+}
+.btn1{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color:hsl(184, 100%, 22%);
+    margin-top: 140px;
+}
+.btn2{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color:hsl(179, 100%, 13%);
+    margin-top: 140px;
+}
+.div1:hover{
+    background-color: orange;
+}
+.div2:hover{
+    background-color: green;
+}
+.div3:hover{
+    background-color: darkgreen;
+}
